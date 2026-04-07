@@ -1,6 +1,6 @@
 # 🔌 WebSocket Broadcast Console
 
-A real-time WebSocket demo app built with **Node.js** and the **`ws`** library. This project demonstrates how WebSocket connections work under the hood — from the initial handshake to live bidirectional message broadcasting across multiple connected clients.
+A real-time WebSocket demo app built with **Node.js** and the **`ws`** library. This project demonstrates how WebSocket connections work under the hood - from the initial handshake to live bidirectional message broadcasting across multiple connected clients.
 
 ---
 
