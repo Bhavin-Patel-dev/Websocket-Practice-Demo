@@ -23,9 +23,9 @@ It serves as a clean, minimal reference for anyone getting started with WebSocke
 
 - 📡 Server broadcasts every message to **all connected clients**
 
-- 🖥️ Built-in browser client — no external frontend framework needed
+- 🖥️ Built-in browser client - no external frontend framework needed
 
-- 🧱 Single-port architecture — HTTP and WebSocket share the same server
+- 🧱 Single-port architecture - HTTP and WebSocket share the same server
 
 - 🪵 Timestamped live stream logs in the UI
 
@@ -59,7 +59,7 @@ Websocket-Practice-Demo/
 
 ### 1. The Handshake
 
-When a browser loads `index.html`, it initiates a WebSocket handshake with the server by sending an HTTP `Upgrade` request. The server upgrades the connection from HTTP to the WebSocket protocol — this is a persistent, full-duplex TCP connection.
+When a browser loads `index.html`, it initiates a WebSocket handshake with the server by sending an HTTP `Upgrade` request. The server upgrades the connection from HTTP to the WebSocket protocol - this is a persistent, full-duplex TCP connection.
 
 ```
 Browser                        Server
@@ -72,7 +72,7 @@ Browser                        Server
 
 ### 2. Message Broadcasting
 
-When any connected client sends a message, the server iterates over **all active clients** and forwards the message to each one — including the sender. This is the core broadcast pattern.
+When any connected client sends a message, the server iterates over **all active clients** and forwards the message to each one - including the sender. This is the core broadcast pattern.
 
 ```javascript
 wss.clients.forEach((client) => {
